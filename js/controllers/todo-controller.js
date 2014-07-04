@@ -17,15 +17,15 @@ todo.controller = function() {
 }
 
 
-// You can use the controller like this:
-var ctrl = new todo.controller();
-ctrl.description(); //[emty string]
+// // You can use the controller like this:
+// var ctrl = new todo.controller();
+// ctrl.description(); //[emty string]
 
-//try adding a to-do
-ctrl.add(ctrl.description);
-ctrl.list.length; //0 .. you can't add a to-do with an empty description
+// //try adding a to-do
+// ctrl.add(ctrl.description);
+// ctrl.list.length; //0 .. you can't add a to-do with an empty description
 
-// add it properly
-ctrl.description("Write code");
-ctrl.add(ctrl.description);
-ctrl.list.length; //1
+// // add it properly
+// ctrl.description("Write code");
+// ctrl.add(ctrl.description);
+// ctrl.list.length; //1
